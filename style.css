@@ -19,13 +19,15 @@ body {
 }
 
 #title h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 #background-container {
-    width: 500px; /* Ширина контейнера */
-    height: 500px; /* Высота контейнера */
+    width: 100%; /* Ширина контейнера */
+    max-width: 800px;
+    height: auto; /* Высота контейнера */
+    aspect-ratio: 1 / 1;
     background-size: cover; /* Заполнение всего контейнера */
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +38,7 @@ body {
 }
 
 #time-container h2 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     margin: 0;
 }
