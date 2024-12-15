@@ -32,7 +32,7 @@ function printTime() {
     const seconds = Math.floor((diff / 1000) % 60);
 
     root.textContent = `Дней: ${days}, Часов: ${hours >= 10 ? hours : '0' + hours}, ` +
-        `Минут: ${minutes >= 10 ? minutes : '0' + minutes}, ` + `Минут: ${seconds>= 10 ? seconds : '0' + seconds}`};
+        `Минут: ${minutes >= 10 ? minutes : '0' + minutes}, ` + `Секунд: ${seconds>= 10 ? seconds : '0' + seconds}`};
 
 // Инициализация
 setInterval(changeBackground, 4000); // Смена фона каждые 4 секунды
